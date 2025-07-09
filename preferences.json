@@ -1,55 +1,127 @@
 [
   {
     "type": "text",
-    "label": "**Back Button Style**",
-    "size": "16px"
+    "label": "**Back Button**",
+    "size": "18px"
+  },
+  {
+    "type": "text",
+    "label": "*Select Icon*",
+    "margin": "0 0 0 10px"
   },
   {
     "property": "mod.iconthemer.back-button.is-chevron",
     "label": "Chevron",
     "type": "checkbox",
-    "defaultValue": false
+    "defaultValue": false,
+    "margin": "0 0 0 20px"
+  },
+  {
+    "type": "text",
+    "label": "*Behavior*",
+    "margin": "10px 0 0 10px"
+  },
+  {
+    "property": "mod.iconthemer.back-button.is-hidden",
+    "label": "Hide unless hovered",
+    "type": "checkbox",
+    "defaultValue": false,
+    "margin": "0 0 0 20px"
   },
   {
     "type": "separator"
   },
   {
     "type": "text",
-    "label": "**Forward Button Style**",
-    "size": "16px"
+    "label": "**Forward Button**",
+    "size": "18px"
+  },
+  {
+    "type": "text",
+    "label": "*Select Icon*",
+    "margin": "0 0 0 10px"
   },
   {
     "property": "mod.iconthemer.forward-button.is-chevron",
     "label": "Chevron",
     "type": "checkbox",
-    "defaultValue": false
+    "defaultValue": false,
+    "margin": "0 0 0 20px"
+  },
+  {
+    "type": "text",
+    "label": "*Behavior*",
+    "margin": "10px 0 0 10px"
+  },
+  {
+    "property": "mod.iconthemer.forward-button.is-hidden",
+    "label": "Hide unless hovered",
+    "type": "checkbox",
+    "defaultValue": false,
+    "margin": "0 0 0 20px"
   },
   {
     "type": "separator"
   },
   {
     "type": "text",
-    "label": "**Reload Button Style**",
-    "size": "16px"
+    "label": "**Reload Button**",
+    "size": "18px"
+  },
+  {
+    "type": "text",
+    "label": "*Select Icon*",
+    "margin": "0 0 0 10px"
   },
   {
     "property": "mod.iconthemer.reload-button.is-dualarrow",
     "label": "Dual Arrow",
     "type": "checkbox",
-    "defaultValue": false
+    "defaultValue": false,
+    "margin": "0 0 0 20px"
+  },
+  {
+    "type": "text",
+    "label": "*Behavior*",
+    "margin": "10px 0 0 10px"
+  },
+  {
+    "property": "mod.iconthemer.reload-button.is-hidden",
+    "label": "Hide unless hovered",
+    "type": "checkbox",
+    "defaultValue": false,
+    "margin": "0 0 0 20px"
   },
   {
     "type": "separator"
   },
   {
     "type": "text",
-    "label": "**Menu Button Style**",
-    "size": "16px"
+    "label": "**Menu Button**",
+    "size": "18px"
+  },
+  {
+    "type": "text",
+    "label": "*Select Icon*",
+    "margin": "0 0 0 10px"
   },
   {
     "property": "mod.iconthemer.menu-button.is-zenlogo",
     "label": "Zen Logo",
     "type": "checkbox",
-    "defaultValue": false
+    "defaultValue": false,
+    "margin": "0 0 0 20px"
+  },
+  {
+    "type": "text",
+    "label": "*Behavior*",
+    "margin": "10px 0 0 10px"
+  },
+  {
+    "property": "mod.iconthemer.menu-button.is-hidden",
+    "label": "Hide unless hovered",
+    "type": "checkbox",
+    "defaultValue": false,
+    "margin": "0 0 0 20px"
   }
 ]
