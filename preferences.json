@@ -1,19 +1,54 @@
 [
   {
-    "property": "iconthemer.back-button.altered",
-    "label": "⬅️ Use Altered Back Button Icon (Chevron)",
+    "type": "text",
+    "label": "**Back Button Style**",
+    "size": "16px"
+  },
+  {
+    "property": "mod.iconthemer.back-button.is-chevron",
+    "label": "⬅️ Use Chevron Icon",
     "type": "checkbox",
     "defaultValue": false
   },
   {
-    "property": "iconthemer.forward-button.altered",
-    "label": "➡️ Use Altered Forward Button Icon (Chevron)",
+    "type": "separator"
+  },
+  {
+    "type": "text",
+    "label": "**Forward Button Style**",
+    "size": "16px"
+  },
+  {
+    "property": "mod.iconthemer.forward-button.is-chevron",
+    "label": "➡️ Use Chevron Icon",
     "type": "checkbox",
     "defaultValue": false
   },
   {
-    "property": "iconthemer.menu-button.altered",
-    "label": "⚙️ Use Altered Menu Button Icon (Zen Logo)",
+    "type": "separator"
+  },
+  {
+    "type": "text",
+    "label": "**Reload Button Style**",
+    "size": "16px"
+  },
+  {
+    "property": "mod.iconthemer.reload-button.is-dualarrow",
+    "label": "🔄 Use Dual Arrow Icon",
+    "type": "checkbox",
+    "defaultValue": false
+  },
+  {
+    "type": "separator"
+  },
+  {
+    "type": "text",
+    "label": "**Menu Button Style**",
+    "size": "16px"
+  },
+  {
+    "property": "mod.iconthemer.menu-button.is-zenlogo",
+    "label": "⚙️ Use Zen Logo Icon",
     "type": "checkbox",
     "defaultValue": false
   }
