@@ -3,31 +3,35 @@
     "property": "mod.iconthemer.back-button-style",
     "label": "⬅️ Back Button Style",
     "type": "dropdown",
-    "defaultValue": "0",
+    "defaultValue": "default",
     "options": [
       {
         "label": "Default",
-        "value": "0"
+        "value": "default"
       },
       {
-        "label": "Altered",
-        "value": "1"
+        "label": "Altered (Chevron)",
+        "value": "altered-chevron"
+      },
+      {
+        "label": "Altered (Solid Arrow)",
+        "value": "altered-solid"
       }
     ]
   },
   {
-    "property": "mod.iconthemer.forward-button.altered",
+    "property": "mod.iconthemer.forward-button-style",
     "label": "➡️ Forward Button Style",
     "type": "dropdown",
-    "defaultValue": "false",
+    "defaultValue": "default",
     "options": [
       {
         "label": "Default",
-        "value": "false"
+        "value": "default"
       },
       {
-        "label": "Altered",
-        "value": "true"
+        "label": "Altered (Chevron)",
+        "value": "altered-chevron"
       }
     ]
   },
@@ -35,15 +39,15 @@
     "property": "mod.iconthemer.menu-button-style",
     "label": "⚙️ Menu Button Style",
     "type": "dropdown",
-    "defaultValue": "0",
+    "defaultValue": "default",
     "options": [
       {
         "label": "Default",
-        "value": "0"
+        "value": "default"
       },
       {
-        "label": "Altered",
-        "value": "1"
+        "label": "Altered (Zen Logo)",
+        "value": "altered-zenlogo"
       }
     ]
   }
