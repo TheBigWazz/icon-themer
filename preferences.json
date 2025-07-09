@@ -6,7 +6,7 @@
   },
   {
     "property": "mod.iconthemer.back-button.is-chevron",
-    "label": "⬅️ Use Chevron Icon",
+    "label": "Chevron",
     "type": "checkbox",
     "defaultValue": false
   },
@@ -20,7 +20,7 @@
   },
   {
     "property": "mod.iconthemer.forward-button.is-chevron",
-    "label": "➡️ Use Chevron Icon",
+    "label": "Chevron",
     "type": "checkbox",
     "defaultValue": false
   },
@@ -34,7 +34,7 @@
   },
   {
     "property": "mod.iconthemer.reload-button.is-dualarrow",
-    "label": "🔄 Use Dual Arrow Icon",
+    "label": "Dual Arrow",
     "type": "checkbox",
     "defaultValue": false
   },
@@ -48,7 +48,7 @@
   },
   {
     "property": "mod.iconthemer.menu-button.is-zenlogo",
-    "label": "⚙️ Use Zen Logo Icon",
+    "label": "Zen Logo",
     "type": "checkbox",
     "defaultValue": false
   }
