@@ -16,18 +16,18 @@
     ]
   },
   {
-    "property": "mod.iconthemer.forward-button-style",
+    "property": "mod.iconthemer.forward-button.altered",
     "label": "➡️ Forward Button Style",
     "type": "dropdown",
-    "defaultValue": "0",
+    "defaultValue": "false",
     "options": [
       {
         "label": "Default",
-        "value": "0"
+        "value": "false"
       },
       {
         "label": "Altered",
-        "value": "1"
+        "value": "true"
       }
     ]
   },
