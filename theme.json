@@ -3,7 +3,7 @@
   "name": "Icon Themer",
   "description": "A Zen Mod that allows you to customize the browser's toolbar icons.",
   "homepage": "https://github.com/TheBigWazz/icon-themer",
-  "style": "https://raw.githubusercontent.com/TheBigWazz/icon-themer/main/chrome.css",
+  "style": "https://raw.githubusercontent.com/TheBigWazz/icon-themer/main/userChrome.css",
   "readme": "https://raw.githubusercontent.com/TheBigWazz/icon-themer/main/README.md",
   "image": "https://raw.githubusercontent.com/TheBigWazz/icon-themer/main/image.png",
   "author": "TheBigWazz",
