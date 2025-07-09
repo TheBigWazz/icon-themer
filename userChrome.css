@@ -3,13 +3,13 @@
  *
  * It works by using a @media query to check for a boolean preference
  * that is set by the Zen mod loader. When a user selects an option
- * from a dropdown (e.g., with value="1"), the loader creates a boolean
- * preference like 'property.name.value' (e.g., 'mod.iconthemer.back-button-style.1').
+ * from a dropdown (e.g., with value="altered"), the loader creates a boolean
+ * preference like 'property.name.value' (e.g., 'mod.iconthemer.back-button-style.altered').
  * This CSS checks if that specific preference is true.
  */
 
 /* --- Back Button Style --- */
-@media (-moz-bool-pref: "mod.iconthemer.back-button-style.1") {
+@media (-moz-bool-pref: "mod.iconthemer.back-button-style.altered") {
   #back-button image {
     list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='2 2 20 20'%3E%3Cpath fill='context-fill' fill-opacity='context-fill-opacity' d='M12.08,4.08L4.16,12L12.08,19.92L13.5,18.5L8,12L13.5,5.5Z'/%3E%3C/svg%3E") !important;
   }
@@ -21,7 +21,7 @@
 }
 
 /* --- Forward Button Style --- */
-@media (-moz-bool-pref: "mod.iconthemer.forward-button-style.1") {
+@media (-moz-bool-pref: "mod.iconthemer.forward-button-style.altered") {
   #forward-button image {
     list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='2 2 20 20'%3E%3Cpath fill='context-fill' fill-opacity='context-fill-opacity' d='M11.92,4.08L19.84,12L11.92,19.92L10.5,18.5L16,12L10.5,5.5Z'/%3E%3C/svg%3E") !important;
   }
@@ -33,7 +33,7 @@
 }
 
 /* --- Menu Button Style --- */
-@media (-moz-bool-pref: "mod.iconthemer.menu-button-style.1") {
+@media (-moz-bool-pref: "mod.iconthemer.menu-button-style.altered") {
   #PanelUI-menu-button image {
     list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='context-fill' fill-opacity='context-fill-opacity' fill-rule='evenodd' clip-rule='evenodd' d='M16,22.2c3.4,0,6.2-2.8,6.2-6.2c0-3.4-2.8-6.2-6.2-6.2c-3.4,0-6.2,2.8-6.2,6.2C9.8,19.4,12.6,22.2,16,22.2z M20.9,16c0,2.7-2.2,4.9-4.9,4.9s-4.9-2.2-4.9-4.9s2.2-4.9,4.9-4.9S20.9,13.3,20.9,16z'/%3E%3Cpath fill='context-fill' fill-opacity='context-fill-opacity' fill-rule='evenodd' clip-rule='evenodd' d='M26.7,16c0,5.9-4.8,10.7-10.7,10.7S5.3,21.9,5.3,16S10.1,5.3,16,5.3S26.7,10.1,26.7,16z M16,24.6 c4.8,0,8.6-3.9,8.6-8.6S20.8,7.4,16,7.4S7.4,11.2,7.4,16S11.2,24.6,16,24.6z'/%3E%3Cpath fill='context-fill' fill-opacity='context-fill-opacity' fill-rule='evenodd' clip-rule='evenodd' d='M32,16c0,8.8-7.2,16-16,16S0,24.8,0,16S7.2,0,16,0S32,7.2,32,16z M16,29.1c7.3,0,13.1-5.9,13.1-13.1 S23.3,2.9,16,2.9S2.9,8.7,2.9,16S8.7,29.1,16,29.1z'/%3E%3C/svg%3E") !important;
   }
