@@ -3,8 +3,8 @@
  *
  * It works by using a @media query to check for a boolean preference
  * that is set by the Zen mod loader. When a user selects an option
- * from a dropdown, the loader creates a boolean preference like
- * 'property.name.value' (e.g., 'mod.iconthemer.back-button-style.1').
+ * from a dropdown (e.g., with value="1"), the loader creates a boolean
+ * preference like 'property.name.value' (e.g., 'mod.iconthemer.back-button-style.1').
  * This CSS checks if that specific preference is true.
  */
 
