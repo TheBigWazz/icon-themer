@@ -107,7 +107,7 @@
   },
   {
     "property": "mod.iconthemer.downloads-button.is-cloud",
-    "label": "☁️ Use Cloud Icon",
+    "label": "Cloud",
     "type": "checkbox",
     "defaultValue": false,
     "margin": "0 0 0 20px"
