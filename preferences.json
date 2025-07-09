@@ -97,6 +97,38 @@
   },
   {
     "type": "text",
+    "label": "**Downloads Button**",
+    "size": "18px"
+  },
+  {
+    "type": "text",
+    "label": "*Select Icon*",
+    "margin": "0 0 0 10px"
+  },
+  {
+    "property": "mod.iconthemer.downloads-button.is-cloud",
+    "label": "☁️ Use Cloud Icon",
+    "type": "checkbox",
+    "defaultValue": false,
+    "margin": "0 0 0 20px"
+  },
+  {
+    "type": "text",
+    "label": "*Behavior*",
+    "margin": "10px 0 0 10px"
+  },
+  {
+    "property": "mod.iconthemer.downloads-button.is-hidden",
+    "label": "Hide unless hovered",
+    "type": "checkbox",
+    "defaultValue": false,
+    "margin": "0 0 0 20px"
+  },
+  {
+    "type": "separator"
+  },
+  {
+    "type": "text",
     "label": "**Menu Button**",
     "size": "18px"
   },
