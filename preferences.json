@@ -1,50 +1,20 @@
 [
   {
     "property": "iconthemer.back-button.altered",
-    "label": "⬅️ Back Button Style",
-    "type": "dropdown",
-    "defaultValue": false,
-    "options": [
-      {
-        "label": "Default",
-        "value": false
-      },
-      {
-        "label": "Altered (Chevron)",
-        "value": true
-      }
-    ]
+    "label": "⬅️ Use Altered Back Button Icon (Chevron)",
+    "type": "checkbox",
+    "defaultValue": false
   },
   {
     "property": "iconthemer.forward-button.altered",
-    "label": "➡️ Forward Button Style",
-    "type": "dropdown",
-    "defaultValue": false,
-    "options": [
-      {
-        "label": "Default",
-        "value": false
-      },
-      {
-        "label": "Altered (Chevron)",
-        "value": true
-      }
-    ]
+    "label": "➡️ Use Altered Forward Button Icon (Chevron)",
+    "type": "checkbox",
+    "defaultValue": false
   },
   {
     "property": "iconthemer.menu-button.altered",
-    "label": "⚙️ Menu Button Style",
-    "type": "dropdown",
-    "defaultValue": false,
-    "options": [
-      {
-        "label": "Default",
-        "value": false
-      },
-      {
-        "label": "Altered (Zen Logo)",
-        "value": true
-      }
-    ]
+    "label": "⚙️ Use Altered Menu Button Icon (Zen Logo)",
+    "type": "checkbox",
+    "defaultValue": false
   }
 ]
