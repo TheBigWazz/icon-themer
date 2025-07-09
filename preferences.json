@@ -161,12 +161,12 @@
   },
   {
     "type": "text",
-    "label": "**Close Min Max Buttons**",
+    "label": "**Window Control Buttons**",
     "size": "18px"
   },
   {
     "property": "mod.iconthemer.window-controls.is-collapsible",
-    "label": "Collapse buttons (Show on hover)",
+    "label": "Collapse (Show on hover)",
     "type": "checkbox",
     "defaultValue": false,
     "margin": "0 0 0 10px"
