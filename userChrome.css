@@ -1,4 +1,6 @@
 /*
+ * Icon Themer Mod for Zen Browser
+ *
  * This stylesheet applies icons and behaviors based on checkbox selections.
  * Each style is controlled by a unique boolean preference that is
  * defined here and toggled by a checkbox in the preferences.json file.
@@ -37,7 +39,7 @@
     opacity: 0 !important;
     transition: opacity 0.2s ease;
   }
-  :root:not([customizing]) #nav-bar:hover #back-button {
+  :root:not([customizing]) #back-button:hover {
     opacity: 1 !important;
   }
 }
@@ -47,7 +49,7 @@
     opacity: 0 !important;
     transition: opacity 0.2s ease;
   }
-  :root:not([customizing]) #nav-bar:hover #forward-button {
+  :root:not([customizing]) #forward-button:hover {
     opacity: 1 !important;
   }
 }
@@ -57,7 +59,7 @@
     opacity: 0 !important;
     transition: opacity 0.2s ease;
   }
-  :root:not([customizing]) #nav-bar:hover #reload-button {
+  :root:not([customizing]) #reload-button:hover {
     opacity: 1 !important;
   }
 }
@@ -67,7 +69,7 @@
     opacity: 0 !important;
     transition: opacity 0.2s ease;
   }
-  :root:not([customizing]) #nav-bar:hover #PanelUI-menu-button {
+  :root:not([customizing]) #PanelUI-menu-button:hover {
     opacity: 1 !important;
   }
 }
